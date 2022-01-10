@@ -1,2 +1,2 @@
 - [Markdown](markdown/1Intro.md)
-    - [Usage Scenarios](user-scenarios/vix-7018.html.hbs)
+    - [Usage Scenarios](user-scenarios/vix-7018.md.hbs)
