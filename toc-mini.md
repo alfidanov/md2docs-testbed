@@ -1,4 +1,2 @@
 - [Markdown](markdown/1Intro.md)
-    - [Usage Scenarios](user-scenarios/terminal-class-usage.md)
-        - [Eval Expression 1](user-scenarios/eval-expression-problem.md)
-        - [Eval Expression 2](user-scenarios/eval-expression-problem-2.md)
+    - [Usage Scenarios](user-scenarios/vix-7018.html.hbs)
