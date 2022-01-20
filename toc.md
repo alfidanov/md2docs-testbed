@@ -33,4 +33,5 @@
         - [HBS Like Syntax](user-scenarios/hbs-like-syntax.erb.md)
         - [Language Code Blocks](user-scenarios/language-specific-code-blocks.md)
         - [Test with Lists](user-scenarios/test-lists.md)
+        - [Test with Text Styling](user-scenarios/test-text-styling.md)
     - [External Link](https://www.google.com/search?q=markdown)
