@@ -26,32 +26,34 @@ The following is ordered list
 ## Testing ordered list inside unordered list
 
 The following is ordered list inside unordered list
+
 + Sublistunorderedone
-	1. Sublistorderone
-	2. Sublistordertwo
+    1. Sublistorderone (with spaces)
+    2. Sublistordertwo (with spaces)
 
 + Sublistunorderedtwo
 	1. Sublistorderthree
 	2. Sublistorderfour
 
 + Sublistunorderedthree
-	1. Sublistorderfive
-	2. Sublistordersix
+    1. Sublistorderfive (with spaces)
+    2. Sublistordersix (with spaces)
 	
 ## Testing unordered list inside ordered list
 	
 The following is unordered list inside ordered list
+
 1. Sublistunorderedone
-	+ Sublistorderone
-	+ Sublistordertwo
+    + Sublistorderone (with spaces)
+    + Sublistordertwo (with spaces)
 
 1. Sublistunorderedtwo
 	+ Sublistorderthree
 	+ Sublistorderfour
 
 1. Sublistunorderedthree
-	+ Sublistorderfive
-	+ Sublistordersix
+    + Sublistorderfive (with spaces)
+    + Sublistordersix (with spaces)
 	
 
 ## Starting unordered list with numbers
