@@ -40,7 +40,7 @@ Enable typographer option to see result.
 
 **Symbols**
 
-(c) 
+(c) &#9400;
 
 (C) 
 
