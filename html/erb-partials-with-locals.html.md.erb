@@ -1,4 +1,9 @@
-<%= partial '/something/asd/asd/123/partials/servicetable', :locals =>
+<%= partial '/partials/servicetable', :locals =>
+
+{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
+%>
+
+<%= partial vars.path_to_partials + '/servicetable', :locals =>
 
 {   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
 %>

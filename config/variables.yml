@@ -4,3 +4,4 @@ template_variables:
   current_version: 1
   max_version: 1
   platform_code: CF
+  path_to_partials: /partials
