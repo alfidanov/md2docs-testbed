@@ -47,4 +47,4 @@ les""}}")
 ```
 
 
-VS_DOTNET_REFERENCES "System;${<%=vars.product_name%>Native_DOTNET_LIBRARY}")
+VS_DOTNET_REFERENCES "System;${ <%=vars.product_name%>Native_DOTNET_LIBRARY }")
