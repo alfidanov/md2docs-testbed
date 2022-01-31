@@ -5,3 +5,4 @@ template_variables:
   max_version: 1
   platform_code: CF
   path_to_partials: /partials
+  support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>

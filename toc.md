@@ -34,4 +34,5 @@
         - [Language Code Blocks](user-scenarios/language-specific-code-blocks.md)
         - [Test with Lists](user-scenarios/test-lists.md)
         - [Test with Text Styling](user-scenarios/test-text-styling.md)
+        - [Variables with HTML](user-scenarios/variables-inside-code-blocks.md)
     - [External Link](https://www.google.com/search?q=markdown)
