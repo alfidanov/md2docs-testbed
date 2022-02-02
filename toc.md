@@ -35,4 +35,5 @@
         - [Test with Lists](user-scenarios/test-lists.md)
         - [Test with Text Styling](user-scenarios/test-text-styling.md)
         - [Variables with HTML](user-scenarios/variables-inside-code-blocks.md)
+        - [Parsing Problem](user-scenarios/parsing-problem.html.md.erb)
     - [External Link](https://www.google.com/search?q=markdown)
