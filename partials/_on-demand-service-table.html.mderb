@@ -1,0 +1,13 @@
+Service Name: <%= service_name %>
+
+Platform Name: <%= platform_name %>
+
+Rabbit: <%= rabbit %>
+
+Redis: <%= redis %>
+
+MySql: <%= mysql %>
+
+Cloud Cache: <%= cloud_cache %>
+
+GemFire: <%= gemfire %>
