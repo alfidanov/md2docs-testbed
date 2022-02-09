@@ -35,4 +35,5 @@
         - [Test with Lists](user-scenarios/test-lists.md)
         - [Test with Text Styling](user-scenarios/test-text-styling.md)
         - [Variables with HTML](user-scenarios/variables-inside-code-blocks.md)
+        - [MD and HTML Comments](user-scenarios/md-and-html-comments.html)
     - [External Link](https://www.google.com/search?q=markdown)
