@@ -57,3 +57,33 @@ Ordered list with 1. 1. 1. 1.
     - Indented item
     - Indented item
 1. Fourth item
+
+
+To create a new Kubernetes cluster configured with VM&nbsp;extensions:
+
+1. Create a VM&nbsp;extensions configuration file. For more information, see [Create a Cluster Configuration File for BOSH VM Extensions](#create-configuration) below.  
+1. To create a cluster using a VM&nbsp;extensions file:  
+
+    ```
+    tkgi create-cluster CLUSTER-NAME --config-file CONFIG-FILENAME
+    ```
+    Where:
+
+    * `CLUSTER-NAME` is the name of the cluster to create. 
+    * `CONFIG-FILENAME` is the name of the VM extension configuration file created above. 
+
+To configure an existing Kubernetes cluster with VM&nbsp;extensions:
+
+1. Create a VM&nbsp;extensions configuration file. For more information, see [Create a Cluster Configuration File for BOSH VM Extensions](#create-configuration) below.  
+1. To modify a cluster using a VM&nbsp;extensions file:  
+
+    ```
+    tkgi update-cluster CLUSTER-NAME --config-file CONFIG-FILENAME
+    ```
+    Where:
+
+    
+    * `CLUSTER-NAME` is the name of the cluster to modify. 
+    * `CONFIG-FILENAME` is the name of the VM extension configuration file created above. 
+
+   
