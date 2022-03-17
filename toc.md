@@ -36,4 +36,5 @@
         - [Test with Text Styling](user-scenarios/test-text-styling.md)
         - [Variables with HTML](user-scenarios/variables-inside-code-blocks.md)
         - [MD and HTML Comments](user-scenarios/md-and-html-comments.html)
+        - [Funky File Name](user-scenarios/funky-filé-name.html)
     - [External Link](https://www.google.com/search?q=markdown)
