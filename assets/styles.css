@@ -1,7 +1,7 @@
-pre {
+.rhs-center pre {
    border: 1px solid red; 
 }
 
-a {
+.rhs-center a {
    border-bottom: 1px dashed darkblue;
 }
