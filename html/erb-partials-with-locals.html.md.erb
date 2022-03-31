@@ -2,7 +2,7 @@ Case 1:
 
 <%= partial '/partials/servicetable', :locals =>
 
-{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
+{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => vars.product_full, :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
 %>
 
 
@@ -11,7 +11,7 @@ Case 2:
 
 <%= partial vars.path_to_partials + '/servicetable', :locals =>
 
-{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
+{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => vars.product_full, :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
 %>
 
 
@@ -20,7 +20,7 @@ Case 3:
 
 <%= partial vars.path_to_partials + "/servicetable", :locals =>
 
-{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
+{   :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => vars.product_full, :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode" }
 %>
 
 Case 4:
@@ -37,7 +37,7 @@ Case 4:
 Case 5:
 
 <%= partial '../../p-cloud-cache/partials/services/on-demand-service-table', :locals => {
-  :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => "RabbitMQ for VMware Tanzu [VMs]", :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode"
+  :service_name => "VMware Tanzu GemFire", :platform_name => "VMware Tanzu Application Service for VMs", :rabbit => vars.product_full, :redis => "Redis for VMware Tanzu", :mysql => "VMware Tanzu SQL [MySQL]", :cloud_cache => "VMware Tanzu GemFire", :gemfire =>"Apache Geode"
 } %>
 
 
