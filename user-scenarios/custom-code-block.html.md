@@ -1,11 +1,12 @@
 <html>
 <body>
-<head>
+
 <style>
     #long-code-block : {
         height: 200px;
     }
 </style>
+
 <pre id="long-code-block">
 <code>
 ##########################################
