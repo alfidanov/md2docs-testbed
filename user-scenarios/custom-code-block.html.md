@@ -2,9 +2,9 @@
 <body>
 
 <style>
-    #long-code-block : {
-        height: 200px;
-    }
+    #long-code-block {background-color: powderblue; height: 200px}
+    h1   {color: blue;}
+    p    {color: red;}
 </style>
 
 <pre class="asd" id="long-code-block">
