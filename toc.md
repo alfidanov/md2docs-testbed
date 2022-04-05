@@ -39,4 +39,5 @@
         - [Funky File Name](user-scenarios/funky-filé-name.html)
         - [Commented Code Block](user-scenarios/commented-code-block.html)
         - [Mixed {Brackets} [Case]](user-scenarios/mixed-brackets.html)
+        - [Custom Code Block](user-scenarios/custom-code-block.html)
     - [External Link](https://www.google.com/search?q=markdown)
