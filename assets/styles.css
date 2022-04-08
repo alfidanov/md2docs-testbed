@@ -1,7 +1,4 @@
 .rhs-center pre {
-   border: 1px solid red !important; 
-}
-
-.rhs-center a {
-   border-bottom: 1px dashed darkblue;
+   border: 1px solid cyan !important;
+   background-color: lightblue !important;
 }
