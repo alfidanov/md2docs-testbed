@@ -6,3 +6,14 @@ template_variables:
   platform_code: CF
   path_to_partials: /partials
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
+  metrics:
+    -
+      tag: cm
+      unit: cm
+      description: Metric in CMs
+      source: here
+    -
+      tag: mm
+      unit: mm
+      description: Metric in MMs
+      source: there
