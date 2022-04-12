@@ -1,30 +1,5 @@
 # Calling metrics partial with ERB loops
 
-This is an example of loop expression:
-
-<% vars.metrics.each do |metric| %>
-    <table class="nice">
-    <tr>
-        <th colspan="2" style="text-align: center;">
-            <a name="<%= metric[:tag] %>"></a><%= metric[:source]%>
-        </th>
-    </tr>
-    <tr>
-      <th width="20%">Description</th>
-      <td><%= metric[:description] %> </td>
-    </tr>
-    <tr>
-      <th width="15%">Unit</th>
-      <td><%= metric[:unit] %></td>
-    </tr>
-  </table>
-  <br>
-  <% end %>
-  
-Some more ERB syntax to confuse the enemy
-
-<% if vars.current_version == 'asdasda' %>
-This should never show up!
-<% else %>
-
-<strong><%= vars.product_full %></strong>
+<%= partial 'metrics', :locals => {
+  :metrics => vars.metrics
+} %>
