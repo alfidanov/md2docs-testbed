@@ -40,5 +40,5 @@
         - [Commented Code Block](user-scenarios/commented-code-block.html)
         - [Mixed {Brackets} [Case]](user-scenarios/mixed-brackets.html)
         - [Custom Code Block](user-scenarios/custom-code-block.html)
-        - [ERB Loop](user-scenarios/erb-loop.html)
+        - [ERB Loop](user-scenarios/ruby-loop.html)
     - [External Link](https://www.google.com/search?q=markdown)
