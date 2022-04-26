@@ -1,4 +1,5 @@
-*Syntax*
+**Syntax**
+
 
 Definition Term
 : Definition of above term
@@ -24,6 +25,8 @@ Definition Term
 
 
 
+Lazy continuation of definitions is supported and definition terms which follow a definition must be separated from it by a blank line.
+
 Definition Term  
 : Definition for Definition Term
 
@@ -31,6 +34,10 @@ Another Definition Term
 : Definition for Another Definition Term
 
 
+
+Inline markdown is allowed in both terms and definitions. Definitions can contain any other markdown elements provided these are indented as per list indentation rules.
+
+Multiple definition terms cannot be separated by blank lines since all but the last term will be treated as paragraph text:
 
 
 Not a definition term.
