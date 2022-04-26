@@ -9,6 +9,7 @@
         - [Escaping](markdown/8Escaping.md)
         - [Html In Markdown](markdown/9HtmlInMarkdown.md)
         - [YAML Metadata](markdown/10YamlMetadata.md.hbs)
+        - [Definition Lists](markdown/11DefinitionLists.md)
     - [ERB Transformations](erb/1Erb-Transformations.md)
         - [Curly brackets syntax and Comments](erb/2Erb-Curly-Brackets-Comments.md)
         - [Variables](erb/3Erb-Variables.md)
