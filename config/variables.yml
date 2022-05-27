@@ -1,6 +1,7 @@
 template_variables:
   product_full: Md2Docs Test Bed
   product_short: Md2Docs
+  app_runtime_full: Md 2 Docs Test Bed APPRUNTIME full
   current_version: 1
   max_version: 1
   platform_code: CF
