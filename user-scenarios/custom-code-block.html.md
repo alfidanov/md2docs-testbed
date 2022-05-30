@@ -2,7 +2,7 @@
 <body>
 
 <style>
-    #long-code-block {background-color: powderblue; height: 200px}
+    #long-code-block {background-color: powderblue; max-height: 200px}
     h1   {color: blue;}
     p    {color: red;}
 </style>
