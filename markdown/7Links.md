@@ -10,7 +10,7 @@ Link to this page (just anchor) [Scroll to Anchor](#sample_id).
 
 Link to this page (file name and anchor) [Scroll to Anchor](7Links.html#sample_id).
 
-Link to page with white space in fodlder name [Link to white space folder page](super folder/links.md#sample_id).
+Link to page with white space in fodlder name [Link to white space folder page](super%20folder/links.md#sample_id).
 
 Relative link to an image on the site [Image](images/tn-workstation-pro-16.jpg).
 
