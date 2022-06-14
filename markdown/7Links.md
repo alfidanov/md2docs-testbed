@@ -28,4 +28,4 @@ Relative link to Headings page [Headings](2Headings.md)
 Relative link to Headings page [Headings](2Headings.md)
 
 
-<a id="sample_id" style="margin-top: 1000px">Anchor to here</a>
+<a id="sample_id" style="margin-top: 1000px; display: block">Anchor to here</a>
