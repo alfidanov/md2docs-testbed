@@ -6,9 +6,9 @@ title: Markdown Links
 
 Information about the company you can find on [VMware](https://www.vmware.com) website.
 
-Link to this page (just anchor) [Link To Another Repo](#sample_id).
+Link to this page (just anchor) [Scroll to Anchor](#sample_id).
 
-Link to this page (file name and anchor) [Link To Another Repo](7Links.html#sample_id).
+Link to this page (file name and anchor) [Scroll to Anchor](7Links.html#sample_id).
 
 Relative link to an image on the site [Image](images/tn-workstation-pro-16.jpg).
 
