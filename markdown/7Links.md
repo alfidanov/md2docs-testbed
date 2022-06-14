@@ -8,7 +8,7 @@ Information about the company you can find on [VMware](https://www.vmware.com) w
 
 Link to this page (just anchor) [Scroll to Anchor](#sample_id).
 
-Link to this page (file name and anchor) [Scroll to Anchor](7Links.html#sample_id).
+Link to this page (file name and anchor) [Scroll to Anchor](7Links.html?id=5#sample_id).
 
 Link to page with white space in fodlder name [Link to white space folder page](super%20folder/links.md#sample_id).
 
