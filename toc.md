@@ -43,4 +43,5 @@
         - [Custom Code Block](user-scenarios/custom-code-block.html)
         - [ERB Loop](user-scenarios/ruby-loop.html)
         - [Videos](user-scenarios/videos.html)
+        - [Funky Filename](user-scenarios/link-to-image-with-funky-filename.html)
     - [External Link](https://www.google.com/search?q=markdown)
