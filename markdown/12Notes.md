@@ -1,7 +1,7 @@
 Below is an important note
 
->**Important**
->This is an important note
+>**Important** Important quote 1st line
+>Important quote 2nd line
 
 Below is a regular note
 
@@ -11,3 +11,10 @@ Below is a regular note
 Below in a caution note
 
 >**Caution** Use this with caution!
+
+
+This is a normal blockquote without type
+
+>**Normal Type** Normal blockquote, nothing special here
+
+### End
