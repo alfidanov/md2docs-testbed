@@ -1,10 +1,22 @@
 **Syntax**
 
-Definition Title 1
-: Definition of above term
+## Example 1
 
-Definition Title 2
-: Another definition of above term
+Windows
+: Windows example 1
 
-Definition Title 3
-: Another definition of above term
+Linux
+: Linux example 1
+
+
+## Example 2
+
+Windows
+: Windows example 2
+
+Linux
+: Linux example 2
+
+## Some other content
+
+Lorem ipsum
