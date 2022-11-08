@@ -18,6 +18,7 @@
         - [Partials](erb/5Erb-Partials.md)
         - [Image Tags](erb/6Erb-Image-Tags.md)
         - [Dynamic Page Title](erb/7ErbFile.md.erb)
+        - [More notes](erb/test_note_warning.html.md.erb)
     - [Html](html/htmlAndMarkdown.html)
         - [Html](html/htmlAndMarkdown.html)
         - [Html With HBS](html/htmlOnlyWithHbsSyntax.html)

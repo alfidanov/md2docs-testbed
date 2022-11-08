@@ -1,0 +1,85 @@
+---
+title: Note and Warning section Test
+owner: Kapil Madan
+---
+
+This is a .html.md.erb file
+
+## Note Section
+
+<p class="note">
+<strong>Note:</strong>
+This is a note with p
+</p>
+          
+some text
+          
+<div class="note">
+<strong>Note:</strong> 
+This is a note with div
+</div>
+                   
+        
+Below is a note section using html construct:
+
+<p class="note">
+<strong>Note:</strong>
+Do not edit <code>values.yaml</code> directly. Create a <code>values-override.yaml</code>.
+</p>
+
+Below is a note section using markdown construct:
+
+**Note:** Note with markdown construct 
+
+**Expectation**
+
+1. There are single line code block inside note section
+2. Note secton styling should apear as per VMW content standard
+
+## Warning Section
+
+<p class="note warning">
+<strong>Warning:</strong>
+<%= vars.product_full %> is currently in beta and is intended for evaluation
+and test purposes only. However, this product can be used in a production environment
+because it does not have any impact on other tiles or Linux VMs.
+</p>
+
+**Expectation**
+
+1. Varref should work inside warning section. Product name with trademark symbol should appear correctly
+
+## Important Section
+
+<div class="note important note_important">
+<strong>Important:</strong>
+<p><%= vars.product_full %> is currently in beta and is intended for evaluation
+and test purposes only. However, this product can be used in a production environment
+  because it does not have any impact on other tiles or Linux VMs.</p>
+</div>
+
+**Important:** Important note with markdown construct using varref <%= vars.product_full %>
+
+**Expectation**
+
+1. Varref should work inside important section. Product name with trademark symbol should appear correctly
+2. Important secton styling should apear as per VMW content standard
+
+## Caution Section
+
+<p class="note caution">
+<strong>Caution:</strong>
+<%= vars.product_full %> is currently in beta and is intended for evaluation
+and test purposes only. However, this product can be used in a production environment
+because it does not have any impact on other tiles or Linux VMs.
+</p>
+
+**Caution:** Caution note with markdown construct using varref <%= vars.product_full %>
+
+**Expectation**
+
+1. Varref should work inside caution section. Product name with trademark symbol should appear correctly
+2. Caution secton styling should apear as per VMW content standard
+
+
+
