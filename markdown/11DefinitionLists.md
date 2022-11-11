@@ -8,6 +8,12 @@ Windows
 Linux
 : Linux example 1
 
+Mac
+: Linux example 1
+
+Android
+: Linux example 1
+
 
 ## Example 2
 
