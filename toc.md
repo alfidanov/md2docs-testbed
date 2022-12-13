@@ -47,4 +47,5 @@
         - [Videos](user-scenarios/videos.html)
         - [Funky Filename](user-scenarios/link-to-image-with-funky-filename.html)
         - [Tabs With Partials](user-scenarios/tabs-and-partials.html)
+        - [Strange Problem](user-scenarios/content-file.html)
     - [External Link](https://www.google.com/search?q=markdown)
