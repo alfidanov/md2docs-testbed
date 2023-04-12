@@ -18,3 +18,8 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 Example: '/md2docs-testbed/images/tn-workstation-pro-16.jpg'
 
 ![VMware workstation alt text!](/md2docs-testbed/images/tn-workstation-pro-16.jpg "VMware workstation")
+
+
+Is this even a valid image syntax?
+
+(/md2docs-testbed/images/tn-workstation-pro-16.jpg "VMware workstation" "Image Title")
