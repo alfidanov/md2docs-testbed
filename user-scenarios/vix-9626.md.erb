@@ -5,3 +5,9 @@
 <% else %>
     THIS IS FALSE AND SHOULD NOT BE DISPLAYED
 <% end %>
+
+<% if (vars.current_version == "1" || vars.max_version == 2") %>
+    THIS IS FALSE AND SHOULD NOT BE DISPLAYED
+<% else %>
+    THIS IS TRUE AND SHOULD BE DISPLAYED
+<% end %>
