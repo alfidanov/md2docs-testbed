@@ -4,7 +4,7 @@ template_variables:
   app_runtime_full: Md 2 Docs Test Bed APPRUNTIME full
   current_version: 1
   max_version: 1
-  platform_code: CF
+  platform_code: CFX
   path_to_partials: /partials
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   hide_content: true
