@@ -1,3 +1,6 @@
+---
+title: Page 1
+---
 #Index
 
 [Go To Page 2](page2.md)
