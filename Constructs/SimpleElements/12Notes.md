@@ -18,3 +18,5 @@ This is a normal blockquote without type
 >**Normal Type** Normal blockquote, nothing special here
 
 ### End
+
+[Back to Simple Constructs](../SimpleConstructs.md)
