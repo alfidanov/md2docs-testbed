@@ -1,2 +1,0 @@
-- [Markdown](markdown/1Intro.md)
-    - [Usage Scenarios](user-scenarios/log-ops-guide.html.md)
