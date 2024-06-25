@@ -21,13 +21,13 @@ Link to another repo [Link To Another Repo](/md2docs-testbed-copy/markdown/1intr
 Link to another repo [Link To Another Repo](/md2docs-testbed/text-file.txt).
 
 
-Relative link to Intro page [Intro](1Intro.md)
+Relative link to Intro page [Intro](/1Intro.md)
 
-Relative link to Intro page [Intro](1Intro.md)
+Relative link to Intro page [Intro](/1Intro.md)
 
-Relative link to Headings page [Headings](2Headings.md)
+Relative link to Headings page [Headings](/Constructs/SimpleElements/2Headings.md)
 
-Relative link to Headings page [Headings](2Headings.md)
+Relative link to Headings page [Headings](/Constructs/SimpleElements/2Headings.md)
 
 
 <a id="sample_id" style="margin-top: 1000px; display: block">Anchor to here</a>

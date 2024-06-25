@@ -1,6 +1,5 @@
 ---
 title: Basic Markdown
-csh: 105
 ---
 
 # Basic use cases for Markdown
@@ -15,5 +14,5 @@ This is an example of ***bold and italic*** text.
 
 
 
-## [Simple](../SimpleConstructs.md)
-## [Complex Constructs](../ComplexConstructs.md)
+## [Simple](Constructs/SimpleConstructs.md)
+## [Complex Constructs](Constructs/ComplexConstructs.md)
