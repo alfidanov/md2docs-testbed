@@ -8,9 +8,9 @@ template_variables:
   path_to_partials: /partials
   support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
   hide_content: true
-  self_managed: "false"
-  saas: "true"
-  platform_type: "true"
+  self_managed: false
+  saas: true
+  platform_type: true
   vars_file: "saas_test2"
   metrics:
     -
