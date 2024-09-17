@@ -1,3 +1,4 @@
 - [Markdown](markdown/1Intro.md)
     - [Usage Scenarios](user-scenarios/log-ops-guide.html.md)
     - [Video](html/htmlAndHbsForVideo.html.md.hbs)
+    - [HBS Syntax](markdown/HbsStatements.hbs.md)
