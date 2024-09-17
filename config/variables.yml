@@ -13,13 +13,11 @@ template_variables:
   platform_type: true
   vars_file: "saas_test2"
   metrics:
-    -
-      tag: cm
+    - tag: cm
       unit: cm
       description: Metric in CMs
       source: here
-    -
-      tag: mm
+    - tag: mm
       unit: mm
       description: Metric in MMs
       source: there
