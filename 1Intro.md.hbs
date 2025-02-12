@@ -86,3 +86,31 @@ The following commands send all the traffic back to pool-1 (the A pool):
 : &gt;   save
 : &gt; save
 </code></pre>
+
+
+<pre class="pre codeblock vm-code-block prettyprint"><code>$ tanzu apps workload create my-foo \
+  --git-repo https://github.com/my-foo/bar \
+  --git-branch dev \
+  --label app.kubernetes.io/part-of=foo \
+  --param dockerfile=./Dockerfile \
+  --type web
+
+🔎 Create workload:
+      1 + |---
+      2 + |apiVersion: carto.run/v1alpha1
+      3 + |kind: Workload
+      4 + |metadata:
+      5 + |  labels:
+      6 + |    apps.tanzu.vmware.com/workload-type: web
+      7 + |  name: my-foo
+      8 + |  namespace: dev
+      9 + |spec:
+     10 + |  params:
+     11 + |  - name: dockerfile
+     12 + |    value: ./Dockerfile
+     13 + |  source:
+     14 + |    git:
+     15 + |      ref:
+     16 + |        branch: dev
+     17 + |      url: https://github.com/my-foo/bar
+</code></pre>
