@@ -13,6 +13,26 @@ This is an example of *italic* text.
 
 This is an example of ***bold and italic*** text.
 
+## Heading 2 test
+
+some text
+
+### Heading 3 test
+
+some other text
+
+#### Heading 4 test
+
+some other other text
+
+##### Heading 5 test
+
+some other text
+
+###### Heading 6 test
+
+something else again
+
 [Evil Twin](/evil-twin/1Intro.md)asdasd
 asd
 as
