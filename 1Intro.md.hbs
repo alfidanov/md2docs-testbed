@@ -1,103 +1,29 @@
+## Definition list that should stay definition list
 
-<p>This topic explains how you can use Dockerfile-based builds with Supply Chain Choreographer.</p>
-<p>For source-based supply chains, when you specify the <code>dockerfile</code> parameter in a workload, the builds switch from using Kpack to using kaniko. Source-based supply chains are supply chains that don&rsquo;t take a pre-built image. kaniko is an open-source tool for building container images from a Dockerfile without running Docker inside a container.</p>
-<table class="table"><thead>
-  <tr>
-    <th>Parameter name</th>
-    <th>Description</th>
-    <th>Example</th>
-  </tr></thead>
-<body>
-  <tr>
-    <td><code>dockerfile<code></td>
-    <td>The relative path to the Dockerfile file in the build context.</td>
-    <td><pre>./Dockerfile</pre></td>
-  </tr>
+<dl>
 
-  <tr>
-    <td><code>docker_build_context<code></td>
-    <td>The relative path to the directory where the build context is.</td>
-    <td><pre>.</pre></td>
-  </tr>
+  <dt>Title 1</dt>
+  <dd>Data 1</dd>
 
-  <tr>
-    <td><code>docker_build_extra_args<code></td>
-    <td>
-      The list of flags to pass directly to kaniko, such as providing arguments to a build.
-    </td>
-    <td><pre>- --build-arg=MY_KEY=MY_VALUE</pre></td>
-  </tr>
-  </body></table>
-<h2>Example 1</h2>
-<p>To build a container image from the <code>github.com/my-foo/bar</code> repository where the Dockerfile resides in the root of that repository, you can switch from using Kpack to building from that Dockerfile by passing the <code>dockerfile</code> parameter:</p>
-<pre class="pre codeblock vm-code-block prettyprint"><code>$ tanzu apps workload create my-foo \
-  --git-repo https://github.com/my-foo/bar \
-  --git-branch dev \
-  --label app.kubernetes.io/part-of=foo \
-  --param dockerfile=./Dockerfile \
-  --type web
+  <dt>Title 2</dt>
+  <dd>Data 2</dd>
 
-🔎 Create workload:
-      1 + |---
-      2 + |apiVersion: carto.run/v1alpha1
-      3 + |kind: Workload
-      4 + |metadata:
-      5 + |  labels:
-      6 + |    apps.tanzu.vmware.com/workload-type: web
-      7 + |  name: my-foo
-      8 + |  namespace: dev
-      9 + |spec:
-     10 + |  params:
-     11 + |  - name: dockerfile
-     12 + |    value: ./Dockerfile
-     13 + |  source:
-     14 + |    git:
-     15 + |      ref:
-     16 + |        branch: dev
-     17 + |      url: https://github.com/my-foo/bar
-</code></pre>
-<h2>Example 2</h2>
-<p>If the context to be used for the build must be set to a different directory within the repository, use the <code>docker_build_context</code> parameter to change that:</p>
-<pre class="pre codeblock vm-code-block prettyprint"><code>$ tanzu apps workload create my-foo \
-  --git-repo https://github.com/my-foo/bar \
-  --git-branch dev \
-  --param dockerfile=MyDockerfile \
-  --param docker_build_context=./src
-</code></pre>
-<blockquote class="note important">
-<p> This feature has no platform operator configurations to be passed through the <code>tap-values.yaml</code> file, but if <code>ootb-supply-chain-*.registry.ca_cert_data</code> or <code>shared.ca_cert_data</code> is configured in <code>tap-values</code>, the certificates are considered when pushing the container image.</p>
-</blockquote>
-<h2>OpenShift</h2>
-<p>kaniko can perform container image builds without a Docker daemon or privileged containers. It does require the use of:</p>
-<ul>
-<li>Capabilities usually dropped from the more restrictive SecurityContextConstraints (SCC) enabled by default in OpenShift.</li>
-<li>The root user.</li>
-</ul>
-<p>To overcome the limitations imposed by the default unprivileged SCC, Tanzu Application Platform installs:</p>
-<ul>
-<li><code>SecurityContextConstraints/ootb-templates-kaniko-restricted-v2-with-anyuid</code> with enough extra privileges for kaniko to operate.</li>
-<li><code>ClusterRole/ootb-templates-kaniko-restricted-v2-with-anyuid</code> to permit the use of SCC to any actor binding to that cluster role.</li>
-</ul>
-<p>Each developer namespace needs a role binding that binds the role to an actor: <code>ServiceAccount</code>. For example:</p>
-<pre class="pre codeblock vm-code-block prettyprint"><code>apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  name: workload-kaniko-scc
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: ootb-templates-kaniko-restricted-v2-with-anyuid
-subjects:
-  - kind: ServiceAccount
-    name: default
-</code></pre>
-<p>With the SCC created and the ServiceAccount bound to the role that permits the use of the SCC, OpenShift accepts the pods created to run kaniko to build the container images.</p>
-<p>For more information, see <a href="/content/broadcom/techdocs/us/en/vmware-tanzu/standalone-components/tanzu-application-platform/1-9/tap/install-online-set-up-namespaces.html">Set up developer namespaces to use your installed packages</a>.</p>
-<p>For more information about SCC, see the <a href="https://docs.openshift.com/container-platform/4.11/authentication/managing-security-context-constraints.html">Openshift</a> documentation.</p>
-<h2>Tanzu Kubernetes Grid and clusters with PSA enabled</h2>
-<p>Tanzu Kubernetes Grid v1.26 and later clusters with the Pod Security admission feature enabled and set to <code>enforce</code> cannot run kaniko without configuration changes. This is because the webhook requires containers to run as a non-root user and kaniko needs to run as a root user. This kaniko limitation relates to how image builds are run.</p>
-<p>To workaround this limitation, label the namespace that kaniko runs as <code>privileged</code>. For example:</p>
-<pre class="pre codeblock vm-code-block prettyprint"><code>pod-security.kubernetes.io/enforce: privileged
-</code></pre>
-<p>For more information about this kaniko limitation, see the <a href="https://github.com/GoogleContainerTools/kaniko/issues/105">kaniko</a> documentation.</p>
-<p>For more information about the Pod Security admission feature, see the <a href="https://kubernetes.io/docs/concepts/security/pod-security-admission/">Kubernetes</a> documentation.</p>
+  <dt>Title 3</dt>
+  <dd>Data 3</dd>
+
+</dl>
+
+## Definition list to transform
+
+<dl>
+
+  <dt>Title 1</dt>
+  <dd>Data 1</dd>
+
+  <dt>Title 2</dt>
+  <dd>Data 2</dd>
+
+  <dt>Title 3</dt>
+  <dd>Data 3</dd>
+
+</dl>
