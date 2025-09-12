@@ -39,7 +39,6 @@
         - [Test with Text Styling](user-scenarios/test-text-styling.md)
         - [Variables with HTML](user-scenarios/variables-inside-code-blocks.md)
         - [MD and HTML Comments](user-scenarios/md-and-html-comments.html)
-        - [Funky File Name](user-scenarios/funky-filé-name.html)
         - [Commented Code Block](user-scenarios/commented-code-block.html)
         - [Mixed {Brackets} [Case]](user-scenarios/mixed-brackets.html)
         - [Custom Code Block](user-scenarios/custom-code-block.html)
