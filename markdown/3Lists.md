@@ -1,7 +1,8 @@
 ---
 title: Markdown List
 csh:
-    id: "vr-2015"
+    id: "foo"
+    appId: "bar"
     title: "CSH title"
     description: "CSH description"
 ---
