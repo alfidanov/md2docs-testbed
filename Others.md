@@ -1,9 +1,9 @@
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+# [\<mark>](https://github.com/markdown-it/markdown-it-mark)
 
 ==Marked text==
 
 
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+## [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
 Footnote 1 link[^first].
 

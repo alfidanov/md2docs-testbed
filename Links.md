@@ -1,4 +1,4 @@
-## Links
+# Links
 
 [link text](http://dev.nodeca.com)
 
