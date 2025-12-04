@@ -10,3 +10,5 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 ## Images
 
 Like links, Images also have a footnote style syntax
+
+![Minion](minion.png "Minion")
