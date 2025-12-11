@@ -100,8 +100,6 @@ The killer feature of `markdown-it` is very effective support of
 [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
 
 
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
 > Classic markup: :wink: :cry: :laughing: :yum:
 >
 > Shortcuts (emoticons): :-) :-( 8-) ;)
