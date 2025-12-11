@@ -1,4 +1,4 @@
-# [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+# Others
 
 ==Marked text==
 
