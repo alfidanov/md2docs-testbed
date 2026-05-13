@@ -1,6 +1,6 @@
 ---
 title: Markdown Headings Use Cases
-csh: "vr-105-new"
+csh: vr-105-new
 ---
 
 # Heading level 1
