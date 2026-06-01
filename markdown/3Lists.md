@@ -1,7 +1,7 @@
 ---
 title: Markdown List
 csh:
-    id: "foo"
+    id: "fooing"
     appId: "bar"
     title: "CSH title"
     description: "CSH description"
