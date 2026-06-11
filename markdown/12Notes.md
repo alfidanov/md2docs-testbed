@@ -1,7 +1,7 @@
 Below is an important note
 
->**Important** Important quote 1st line
->Important quote 2nd line
+>**Info** Information quote 1st line
+>Information quote 2nd line
 
 Below is a regular note
 
@@ -11,6 +11,7 @@ Below is a regular note
 Below in a caution note
 
 >**Caution** Use this with caution!
+
 
 >**Info** Information note!
 >and more note
