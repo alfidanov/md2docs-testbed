@@ -12,6 +12,9 @@ Below in a caution note
 
 >**Caution** Use this with caution!
 
+>**Info** Information note!
+>and more note
+
 
 This is a normal blockquote without type
 
