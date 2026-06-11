@@ -12,17 +12,21 @@ Below in a caution note
 
 >**Caution** Use this with caution!
 
+separator
 
 >**Warning** This is a warning!
 
+separator
 
 >**Info** Information note!
 >and more note
 
+separator
 
 >**Danger** Danger note!
 >and more note
 
+separator
 
 This is a normal blockquote without type
 
