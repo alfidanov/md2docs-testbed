@@ -33,3 +33,12 @@ This is a normal blockquote without type
 >**Normal Type** Normal blockquote, nothing special here
 
 ### End
+
+
+>**Warning** This is a warning!
+
+>**Info** Information note!
+>and more note
+
+>**Danger** Danger note!
+>and more note
