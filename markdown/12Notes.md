@@ -13,7 +13,14 @@ Below in a caution note
 >**Caution** Use this with caution!
 
 
+>**Warning** This is a warning!
+
+
 >**Info** Information note!
+>and more note
+
+
+>**Danger** Danger note!
 >and more note
 
 
