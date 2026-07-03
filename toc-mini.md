@@ -3,5 +3,4 @@
     - [Video](html/htmlAndHbsForVideo.html.md.hbs)
     - [HBS Syntax](markdown/HbsStatements.hbs.md)
     - [Lists](markdown/3Lists.md)
-    - [Google](https://google.com)
 
