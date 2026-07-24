@@ -32,9 +32,3 @@ some other text
 ###### Heading 6 test
 
 something else again
-
-[Evil Twin](/evil-twin/1Intro.md)asdasd
-asd
-as
-das
-d
