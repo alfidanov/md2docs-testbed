@@ -49,5 +49,4 @@
         - [Tabs With Partials](user-scenarios/tabs-and-partials.html)
         - [Strange Problem](user-scenarios/content-file.html)
         - [Set Title Cases](user-scenarios/set-title.html)
-        - [VIX-9626](user-scenarios/vix-9626.html)
     - [External Link](https://www.google.com/search?q=markdown)
