@@ -29,6 +29,22 @@ Fenced Code block with specified type (JSON)
 }
 ```
 
+Fenced Code block with specified type (C#)
+
+```csharp
+public TocTreeItem(string link, string title, MarkdownProjectFile file)
+{
+  this.Link = link;
+  this.Title = title;
+  this.File = file;
+
+  if (Uri.TryCreate(link, UriKind.RelativeOrAbsolute, out Uri uri))
+  {
+    this.IsAbsolute = uri.IsAbsoluteUri;
+  }
+}
+```
+
 ## Code Blocks in List
 
  Code blocks in lists have to be indented with at least 8 spaces (4 tabs) and separated with a blank line from other content
