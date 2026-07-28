@@ -1,9 +1,8 @@
 ---
-title: Basic Markdown
 csh: 105
 ---
 
-# Baseic use cases for Markdown
+# Basic use cases for Markdown's syntax
 
 This document serves as a test bed for Markdown to HTML conversion. Used <https://www.markdownguide.org/basic-syntax> as a source for Markdown snippets.
 
