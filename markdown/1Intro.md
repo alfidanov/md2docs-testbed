@@ -1,16 +1,14 @@
 ---
 csh: 105
+meta: |-
+  {
+    "publicationName": "tanzu-spring-test's",
+    "publicationTitle": "Tanzu Spring Test's",
+    "publicationGuid": "Markdown-5c25c94a-977f-465a-9e40-cef8f980d23b",
+    "productName": "Tanzu Spring",
+    "productVersion": "2"
+  }
 ---
-
-<div style="display: none">
-{
-  "publicationName": "tanzu-spring-test's",
-  "publicationTitle": "Tanzu Spring Test's",
-  "publicationGuid": "Markdown-5c25c94a-977f-465a-9e40-cef8f980d23b",
-  "productName": "Tanzu Spring",
-  "productVersion": "2"
-}
-</div>
 
 # Basic use cases for Markdown's syntax
 
