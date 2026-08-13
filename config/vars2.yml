@@ -1,8 +1,3 @@
-conditions:
-  productVersionConditions_24_1_0: true
-  productVersionConditions_24_3_0: true
-  productVersionConditions_24_4_0: true
-  productVersionConditions_AWA_12_0_0: true
 product_names:
   products_AWA: Automic Automation
   products_AWA_FirstMention: Automic Automation
@@ -12,3 +7,8 @@ product_names:
   products_AWI: Automic Web Interface
   products_AWI_short: AWI
   products_AWS: AWS
+conditions:
+  productVersionConditions_24_1_0: true
+  productVersionConditions_24_3_0: true
+  productVersionConditions_24_4_0: true
+  productVersionConditions_AWA_12_0_0: true
