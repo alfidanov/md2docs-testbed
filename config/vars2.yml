@@ -1,4 +1,4 @@
-product_names:
+template_variables:
   products_AWA: Automic Automation
   products_AWA_FirstMention: Automic Automation
   products_AWA_Old: Automic Workload Automation
@@ -7,8 +7,7 @@ product_names:
   products_AWI: Automic Web Interface
   products_AWI_short: AWI
   products_AWS: AWS
-conditions:
-  productVersionConditions_24_1_0: true
+  productVersionConditions_24_1_0: false
   productVersionConditions_24_3_0: true
   productVersionConditions_24_4_0: true
   productVersionConditions_AWA_12_0_0: true
