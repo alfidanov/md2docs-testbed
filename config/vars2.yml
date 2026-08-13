@@ -11,3 +11,4 @@ template_variables:
   productVersionConditions_24_3_0: true
   productVersionConditions_24_4_0: true
   productVersionConditions_AWA_12_0_0: true
+  guideConditions_AWA: false
