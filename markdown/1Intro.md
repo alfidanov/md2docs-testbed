@@ -1,6 +1,6 @@
 ---
 csh: into-helpid,outro-helpid
-meta: |-
+lattice: |-
   {
     "publicationName": "tanzu-spring-test's",
     "publicationTitle": "Tanzu Spring Test's",
