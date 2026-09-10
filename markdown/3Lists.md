@@ -88,3 +88,4 @@ To configure an existing Kubernetes cluster with VM&nbsp;extensions:
     * `CONFIG-FILENAME` is the name of the VM extension configuration file created above. 
 
    
+{{> link-to-image}}
