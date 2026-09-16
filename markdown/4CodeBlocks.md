@@ -1,7 +1,3 @@
----
-title: Markdown Code Blocks
----
-
 # Markdwn Code Block Use Cases
 
 ## Code Phrase

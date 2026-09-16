@@ -1,5 +1,6 @@
 ---
 csh: into-helpid,outro-helpid
+title: Intro My Title
 lattice: |-
   {
     "publicationName": "tanzu-spring-test's",
