@@ -1,4 +1,6 @@
-#<a id="heading-anchor"></a> Heading with anchor and `code`
+# <a id="heading-anchor"></a> Heading with anchor and `code`
+
+## Rendered title <a id="heading-anchor"></a> Heading with anchor and `code`
 
 Lorem ipsum
 
