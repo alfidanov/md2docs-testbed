@@ -1,4 +1,4 @@
-# <a id="heading-anchor"></a> Heading with anchor and `code`
+# <a id="heading-anchor"></a> Heading with anchor and `code` (changed)
 
 ## Rendered title <a id="heading-anchor"></a> Heading with anchor and `code`
 
