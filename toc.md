@@ -4,5 +4,4 @@
     - [Lists](markdown/3Lists.md)
     - [Title with HTML elements](markdown/html-example.md)
     - [Use Cases with "Images" & other special characters in title](markdown/6Images.md)
-    - [Defining the \"Green\" Profile](markdown/6Images.md)
        
