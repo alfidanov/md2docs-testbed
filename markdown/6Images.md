@@ -1,8 +1,4 @@
----
-title: Markdown Image
----
-
-# Images Use Cases
+# Use Cases with "Images" & other special characters in title
 
 ![VMware workstation alt text!](../images/tn-workstation-pro-16.jpg "VMware workstation")
 
