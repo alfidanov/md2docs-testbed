@@ -1,1 +1,1 @@
-- [Intro](Intro.md)
+- [Intro](Intro.hbs.md)
