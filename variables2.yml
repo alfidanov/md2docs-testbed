@@ -1,0 +1,3 @@
+template_variables:
+  version: 1
+  saas: true
