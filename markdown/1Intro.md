@@ -13,6 +13,10 @@ lattice: |-
 
 # Basic use cases for Markdown's syntax
 
+Variables test:
+Product: {{ vars.product_full }}
+Version: {{ vars.current_version }}
+
 This document serves as a test bed for Markdown to HTML conversion. Used <https://www.markdownguide.org/basic-syntax> as a source for Markdown snippets.
 
 This is an example of **bolded** __bolded__ text.
