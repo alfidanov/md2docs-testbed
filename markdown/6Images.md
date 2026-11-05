@@ -19,3 +19,5 @@ Example: '/md2docs-testbed/images/tn-workstation-pro-16.jpg'
 Is this even a valid image syntax?
 
 (/md2docs-testbed/images/tn-workstation-pro-16.jpg "VMware workstation" "Image Title")
+
+## Images & other interesting stuff
