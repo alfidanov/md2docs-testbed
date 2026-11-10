@@ -20,4 +20,6 @@ Is this even a valid image syntax?
 
 (/md2docs-testbed/images/tn-workstation-pro-16.jpg "VMware workstation" "Image Title")
 
-## Images & other interesting stuff
+## Images & Gifs
+
+![VMware workstation alt text!](../images/pocket-cube.gif "Pocket Cube")
