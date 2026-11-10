@@ -5,3 +5,4 @@
 - [Title with HTML elements](markdown/html-example.md)
     - [Use Cases with "Images" & other special characters in title](markdown/6Images.md)
 - [Google](https://google.com)
+- [Videos](markdown/Videos.md)
