@@ -23,3 +23,8 @@ Is this even a valid image syntax?
 ## Images & Gifs
 
 ![VMware workstation alt text!](../images/pocket-cube.gif "Pocket Cube")
+
+
+## SVGs
+
+![CC!](../images/cc.svg "CC SVG")
