@@ -4,7 +4,7 @@ title: Markdown Table
 
 # Tables Use Cases
 
- ## Tables with hyphens and pipes
+## Tables with hyphens and pipes
 
 | Syntax      | Description |
 | ----------- | ----------- |
