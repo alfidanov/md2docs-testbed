@@ -7,4 +7,5 @@
     - [Bing](https://www.bing.com/)
 - [Google](https://google.com)
     - [Google Lens](https://www.google.com/?olud)
+        -[Links](markdown/7Links.md)
 - [Videos](markdown/Videos.md)
