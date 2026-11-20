@@ -4,6 +4,7 @@
 - [Lists](markdown/3Lists.md)
 - [Title with HTML elements](markdown/html-example.md)
     - [Use Cases with "Images" & other special characters in title](markdown/6Images.md)
+    - [Bing](https://www.bing.com/)
 - [Google](https://google.com)
     - [Google Lens](https://www.google.com/?olud)
 - [Videos](markdown/Videos.md)
